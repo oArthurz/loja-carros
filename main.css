@@ -63,3 +63,26 @@
 {
     color: #000;
 }
+
+@media (max-width: 767px)
+{
+    header
+    {
+        width: 200%;
+    }
+
+    .carousel-inner img
+    {
+        width: 500px;
+    }
+
+    #recomendações
+    {
+        width: 115%;
+    }
+    .row-mt-4
+    {
+        width: 100%;
+        display: block;
+    }
+}
